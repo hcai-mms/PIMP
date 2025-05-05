@@ -2,6 +2,19 @@
 
 This github contains a dataset collected and the tool to track music listening sessions.
 
+## How-to setup a Last.FM Tracking
+
+### Step 1: Register your application and get API Key and Secret
+
+Check here and follow the steps: https://www.last.fm/api/webauth
+
+### Step 2: 
+Add your credentials to the environment variables:
+
+'''
+LASTFM_API_KEY = "YOUR API KEY"
+LASTFM_API_SECRET = "YOUR API SECRET"
+'''
 
 ## License
 
